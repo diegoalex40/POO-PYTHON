@@ -2,9 +2,11 @@ from pyexpat import model
 
 
 class Car :
-    id          = str
+    id          = int
     driver      = str
-    passanggers = str
+    passanggers = int
     brand       = str
     model       = str
+    printAll    = print(vars())
+    
     
