@@ -1,25 +1,16 @@
 from pprint import pprint
+from account import Account
 from car import Car
 
 
 if __name__ == "__main__":
     print ("Hola mundo")
 
-    carro = Car()
-    carro.id            = 5
-    carro.brand         = "Toyota"
-    carro.driver        = "Diego"
-    carro.passanggers   = 5
+    car = Car("PBO5555", Account("Diego Yanez", "17215555555"))   
     
-    
-    carro2 = Car()
-    carro2.id            = 55
-    carro2.brand         = "Fiat"
-    carro2.driver        = "Alexander"
-    carro2.passanggers   = 4
-    
-    print(vars(carro))
-    print(vars(carro2))
+    print(vars(car))
+    print(vars(car.driver))
+
     
     
     
