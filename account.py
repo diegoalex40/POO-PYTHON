@@ -1,6 +1,3 @@
-from curses import ACS_GEQUAL
-import mailbox
-from unicodedata import name
 class Account :
     id          = int
     name        = str
@@ -10,7 +7,6 @@ class Account :
     gender      = str
     numberCell  = int
     age         = int
-    
     
     #Metodo Constructor en Python
     def __init__(self, name, document, mail, password, gender, numberCell, age):
