@@ -1,7 +1,7 @@
-class Account :
+class Account() :
     id          = int
     name        = str
-    document    = int
+    document    = str
     mail        = str
     password    = str
     gender      = str
@@ -9,12 +9,8 @@ class Account :
     age         = int
     
     #Metodo Constructor en Python
-    def __init__(self, name, document, mail, password, gender, numberCell, age):
+    def __init__(self, name, document):
         self.name       = name
         self.document   = document
-        self.mail       = mail
-        self.password   = password
-        self.gender     = gender
-        self.numberCell = numberCell
-        self.age        = age
+        
         
