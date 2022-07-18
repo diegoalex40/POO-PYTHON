@@ -9,8 +9,9 @@ class Account() :
     age         = int
     
     #Metodo Constructor en Python
-    def __init__(self, name, document):
+    def __init__(self, name, document, age):
         self.name       = name
         self.document   = document
+        self.age        = age
         
         

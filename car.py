@@ -1,10 +1,11 @@
 from pyexpat import model
+from unicodedata import name
 from account import Account
 
 class Car :
     id          = int
     #Tipo de dato cambiado en base a Account (primero importar la informacion)
-    driver      = Account("","")
+    driver      = Account("","","")
     passanggers = int
     license     = str
 
